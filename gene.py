@@ -3,7 +3,7 @@
 def gener():
 	for i in range(3):
 		yield i
-	return "IWAI"
+	return "hello world"
 def genera():
 	a = yield from gener()
 	return a
